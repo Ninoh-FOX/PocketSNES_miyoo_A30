@@ -9,7 +9,7 @@ if [ "${1##*.}" = "7z" ]; then
     temp_dir=/tmp/rom
     mkdir $temp_dir
     7zr x "$1" -o"$temp_dir"
-    file_to_run=$(find "$temp_dir" -type f \( -name "*.smc" -o -name "*.sfc" \) | head -n 1)
+    file_to_run=$(find "$temp_dir" -type f \( -name "*.smc" -o -name "*.sfc" -o -name "*.fig" -o -name "*.gd3" -o -name "*.gd7" -o -name "*.dx2" -o -name "*.bsx" -o -name "*.swc" \) | head -n 1)
     if [ -n "$file_to_run" ]; then
         ./PocketSNES "$file_to_run"
     else
