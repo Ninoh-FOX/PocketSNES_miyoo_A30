@@ -1,0 +1,6 @@
+{
+    "label":"PocketSNES",
+    "icon":"PocketSNES.png",
+    "launch":"launch.sh",
+    "description":"PocketSNES standalone emulator"
+}                                                                                                     
