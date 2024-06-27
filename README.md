@@ -1,4 +1,4 @@
-# PocketSNES_miyoo_A30
+# PocketSNES miyoo A30
 PocketSNES standalone emulator for miyoo a30
 
 thanks to Steward-Fu for his custom sdl code:
